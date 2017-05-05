@@ -1,0 +1,10 @@
+c:\users\administrator\documents\visual studio 2013\Projects\PrinterAdd\PrinterAdd\bin\Debug\PrinterAdd.exe.config
+c:\users\administrator\documents\visual studio 2013\Projects\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.Form1.resources
+c:\users\administrator\documents\visual studio 2013\Projects\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2013\Projects\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2013\Projects\PrinterAdd\PrinterAdd\bin\Debug\PrinterAdd.exe
+c:\users\administrator\documents\visual studio 2013\Projects\PrinterAdd\PrinterAdd\bin\Debug\PrinterAdd.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.exe
+c:\users\administrator\documents\visual studio 2013\Projects\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.AboutBox1.resources
+c:\users\administrator\documents\visual studio 2013\Projects\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.csprojResolveAssemblyReference.cache
