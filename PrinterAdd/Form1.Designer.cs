@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.buttonSearch = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.listView1 = new System.Windows.Forms.ListView();
@@ -38,9 +39,9 @@
             this.radioButtonPrinterName = new System.Windows.Forms.RadioButton();
             this.radioButtonPrinterLocation = new System.Windows.Forms.RadioButton();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.addSelectedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textBoxStatus = new System.Windows.Forms.TextBox();
-            this.addSelectedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -126,12 +127,19 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
             this.contextMenuStrip1.ShowImageMargin = false;
-            this.contextMenuStrip1.Size = new System.Drawing.Size(128, 70);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(119, 48);
+            // 
+            // addSelectedToolStripMenuItem
+            // 
+            this.addSelectedToolStripMenuItem.Name = "addSelectedToolStripMenuItem";
+            this.addSelectedToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.addSelectedToolStripMenuItem.Text = "&Add Selected";
+            this.addSelectedToolStripMenuItem.Click += new System.EventHandler(this.addSelectedToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.aboutToolStripMenuItem.Text = "A&bout";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -147,13 +155,6 @@
             this.textBoxStatus.Size = new System.Drawing.Size(393, 89);
             this.textBoxStatus.TabIndex = 6;
             // 
-            // addSelectedToolStripMenuItem
-            // 
-            this.addSelectedToolStripMenuItem.Name = "addSelectedToolStripMenuItem";
-            this.addSelectedToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
-            this.addSelectedToolStripMenuItem.Text = "&Add Selected";
-            this.addSelectedToolStripMenuItem.Click += new System.EventHandler(this.addSelectedToolStripMenuItem_Click);
-            // 
             // Form1
             // 
             this.AcceptButton = this.buttonSearch;
@@ -167,6 +168,7 @@
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.buttonSearch);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
