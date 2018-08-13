@@ -8,3 +8,13 @@ c:\users\administrator\documents\visual studio 2013\Projects\PrinterAdd\PrinterA
 c:\users\administrator\documents\visual studio 2013\Projects\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.pdb
 c:\users\administrator\documents\visual studio 2013\Projects\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.AboutBox1.resources
 c:\users\administrator\documents\visual studio 2013\Projects\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.csprojResolveAssemblyReference.cache
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\PrinterAdd\PrinterAdd\bin\Debug\PrinterAdd.exe.config
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\PrinterAdd\PrinterAdd\bin\Debug\PrinterAdd.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\PrinterAdd\PrinterAdd\bin\Debug\PrinterAdd.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.csprojResolveAssemblyReference.cache
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.AboutBox1.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.Form1.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.Properties.Resources.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\PrinterAdd\PrinterAdd\obj\Debug\PrinterAdd.csproj.GenerateResource.Cache
