@@ -191,8 +191,7 @@ namespace PrinterAdd
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AboutBox1 box = new AboutBox1();
-            box.ShowDialog();            
+            ShowAboutBox();
         }
 
         private void listViewSearchResults_DoubleClick(object sender, EventArgs e)
@@ -292,7 +291,7 @@ namespace PrinterAdd
         {
             TimeSpan ts;
             ts = DateTime.Now - lastMessage;
-            if (ts.TotalSeconds >= 2)
+            if (ts.TotalSeconds >= 5)
             {
                 GetPrintersAsync();
             }
@@ -530,6 +529,16 @@ namespace PrinterAdd
             }
         }
 
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            ShowAboutBox();
 
+        }
+
+        private void ShowAboutBox()
+        {
+            AboutBox1 box = new AboutBox1();
+            box.ShowDialog();
+        }
     }
 }

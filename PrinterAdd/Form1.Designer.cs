@@ -180,7 +180,7 @@
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 2000;
+            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // groupBox1
@@ -281,6 +281,7 @@
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem2.Text = "A&bout";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // Form1
             // 
